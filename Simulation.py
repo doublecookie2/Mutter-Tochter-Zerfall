@@ -34,7 +34,8 @@ def n(x, t): # Zerfall
 
 
 # Darstellung mit Matplotlib
-fig, (ax_bestände, ax_zerfälle) = plt.subplots(nrows=1, ncols=2, figsize=(10, 4))
+plt.rcParams.update({'font.size': 16})
+fig, (ax_bestände, ax_zerfälle) = plt.subplots(nrows=1, ncols=2, figsize=(20, 8))
 
 nuklid_namen = ["Mutter", "Tochter", "Enkel", "Urenkel"]
 for (x, _), name in zip(enumerate(wahrscheinlichkeiten), nuklid_namen):

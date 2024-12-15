@@ -1,1 +1,1 @@
-# Simulation Mutter-Tochter-Zerfall
+# Simulation von Mutter-Tochter-Zerfall
