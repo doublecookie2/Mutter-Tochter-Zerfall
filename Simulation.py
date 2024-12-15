@@ -2,7 +2,9 @@ import matplotlib.pyplot as plt
 
 # Eingaben
 iterationen = 60
-wahrscheinlichkeiten = [1/12, 1/24, 0] # letztes Nuklid muss stabil sein
+ # letztes Nuklid muss stabil sein, also Wahrscheinlichkeit 0
+wahrscheinlichkeiten = [1/32, 1/12, 0]
+# wahrscheinlichkeiten = [1/8, 1/24, 1/12, 1/32, 0]
 
 def p(x): # Wahrscheinlichkeit das Nuklid x in der Iteration zerfällt
     return wahrscheinlichkeiten[x] if 0 <= x else 0
